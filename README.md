@@ -25,8 +25,9 @@ This manual will help you to install fastfetch to your Windows machine
 
 # PowerShell Alias for Fastfetch
 10. Enter this command `notepad $profile`
-11. Put this - function n([Parameter(ValueFromRemainingArguments = $true)]$params) {\
-& fastfetch -c C:\Windows\swzxfetch.jsonc $params into the notepad and save!
+11. Paste it - function n([Parameter(ValueFromRemainingArguments = $true)]$params) {\
+    & fastfetch -c C:\windows\swzxfetch.jsonc $params\
+} into notepad and save!
 
 ![Alias](assets/pic4.png)
 
