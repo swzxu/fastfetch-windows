@@ -26,7 +26,8 @@
 # Алиасы для PowerShell
 10. Впишите команду `notepad $profile`
 11. Вставьте это - function n([Parameter(ValueFromRemainingArguments = $true)]$params) {\
-& fastfetch -c C:\Windows\swzxfetch.jsonc $params в блокнот и сохраните!
+    & fastfetch -c C:\windows\swzxfetch.jsonc $params\
+} в блокнот и сохраните!
 
 ![Alias](assets/pic4.png)
 
