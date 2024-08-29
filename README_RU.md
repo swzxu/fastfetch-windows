@@ -1,7 +1,11 @@
-# Beginning
+# Начало
 Данная инструкция поможет вам установить Fastfetch на Windows
 
 [![English](assets/en.gif)](README.md)
+
+[1. Установка](#Установка)\
+[2. Конфиг автора](#Конфиг)\
+[3. Алиасы](#Алиасы)
 
 # Установка
 1. Установите [Scoop](https://scoop.sh/) на вашу ОС
@@ -11,7 +15,7 @@
 
 ![Fastfetch](assets/pic1.png)
 
-# Конфиг автора
+# Конфиг
 5. Скачайте и установите шрифт FiraCode с репозитория
 6. Установите этот шрифт в терминале
 
@@ -23,7 +27,7 @@
 
 ![Fastfetch2](assets/pic3.png)
 
-# Алиасы для PowerShell
+# Алиасы
 10. Впишите команду `notepad $profile`
 11. Вставьте это - function n([Parameter(ValueFromRemainingArguments = $true)]$params) {\
     & fastfetch -c C:\windows\swzxfetch.jsonc $params\
