@@ -3,6 +3,9 @@ This manual will help you to install fastfetch to your Windows machine
 
 [![Russian](assets/ru.gif)](README_RU.md)
 
+[1. Installing](#Installing)\
+[2. Author's config](#Author's config)\
+[3. Aliases](#PowerShell Alias for Fastfetch)
 # Installing
 1. Install [scoop](https://scoop.sh/) on your machine
 2. Enter the `scoop install fastfetch` command
