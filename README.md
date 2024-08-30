@@ -35,4 +35,8 @@ This manual will help you to install fastfetch to your Windows machine
 
 ![Alias](assets/pic4.png)
 
+12. Enter the `n` command
+
+
+
 
